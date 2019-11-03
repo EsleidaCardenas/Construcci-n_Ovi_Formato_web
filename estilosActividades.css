@@ -1,0 +1,275 @@
+body{
+	font: 15px Arial, Helvetica, sans-srif;
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+
+}
+
+h1{
+	font-size: 2.5rem;
+}
+
+h3{
+	font-size: 1.5rem;
+	color: #005883;
+
+	text-align: center;
+}
+
+h2{
+	font-size: 1rem;
+	font-style: normal;
+	color: #fff;
+	text-align: center;
+}
+
+img{
+display:block;
+margin:auto;
+}
+
+/* Estilos globales*/
+
+.contenedor {
+	width: 80%;
+	color: #08190E;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+
+}
+/* Boton de suscribete*/
+.boton1{
+	height: 38px;
+	background: #FFD433;
+	border:0;
+	padding-left: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+/* Tamaño de fuente del botón de suscribete*/
+.boton1{
+	font-size: 2,5rem
+}
+
+/*Redes sociales*/
+
+.social {
+	position: fixed;
+	right:  0;
+	top: 60%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon{
+	color: white;
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+
+}
+
+.icon-twitter{
+	background: #33D7FF;
+
+}
+
+.icon-facebook{
+	background: #3358FF;
+}
+
+
+
+/*seudo clases, es para darle de forma redonda a las redes*/
+
+.icon:first-child{
+	border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+	border-radius:  0 0 0 1rem;
+}
+
+/* Encabezado*/
+
+header{
+	background-color: #005883;
+	color: #fff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: 5px solid #1293d4;
+}
+
+header a{
+
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header li{
+	float: left;
+	display: inline-block;
+	padding: 0 20px 0 20px;
+}
+
+header #marca{
+	float: right;
+}
+
+header #marca{
+	margin: 0;
+}
+
+header nav{
+
+	float: right;
+	margin-top: -30px;
+}
+
+header .resaltado, header .actual a{
+
+	color:#1293d4;
+	font-weight: bold;
+}
+
+header a:hover{
+	color: #3386FF;
+	font-weight: bold;
+}
+
+/*Cabecera imagen logo UNAD*/
+#cabecera{
+	min-height: 150px;
+	background: url(img/header.png);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size:100%;
+	text-align: center;
+	color: #fff;
+}
+
+#cabecera h1{
+	margin-top: 100px;
+	font-size: 2px;
+	margin-bottom: 10px;
+
+}
+
+ .social {
+	position: fixed;
+	right:  0;
+	top: 60%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	z-index: 100;
+}
+.icon{
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  display: flex;
+  transition: all .5s;
+
+}
+
+.icon-twitter{
+  background: #33D7FF;
+
+}
+
+.icon-facebook{
+  background: #3358FF;
+}
+
+
+
+/*seudo clases, es para darle de forma redonda a las redes*/
+
+.icon:first-child{
+  border-radius: 1rem 0 0 0;
+}
+
+.icon:last-child{
+  border-radius:  0 0 0 1rem;
+}
+
+
+/*Formulario caja donde se encuetra el suscribete*/
+
+#boletin{
+	padding: 3px;
+	color: #fff;
+	background: #005883;
+}
+
+#boletin h1{
+	float: right;
+}
+
+#boletin form{
+	display: contents;
+	float: left;
+	margin-top: -1px;
+}
+
+#boletin input[type="email"]{
+		padding: 1px;
+		height: 30px;
+		width: 300px;
+	}
+
+
+	body .resaltado, body{
+
+	color:#1293d4;
+	font-weight: bold;
+}
+
+/*Formulario*/
+
+#cajas{
+	margin-top: 20px;
+}
+
+#cajas .caja{
+	float: left;
+	text-align: justify;
+	width: 30%;
+	padding: 10px;
+}
+
+#cajas .caja img{
+	width: 90px;
+}
+
+.twitter{
+	float: right;
+	height: 38px;
+    width: 30%;
+    margin-top: -3%;
+}
+
+footer{
+	padding: 2px;
+	margin-top: -3px;
+	font-size: -10rem;;
+	color: #fff;
+  font-style: italic;
+	background-color: #1293d4;
+	text-align: center;
+}

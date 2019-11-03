@@ -46,24 +46,7 @@ ul{
   padding: 0;
 }
 
-/* Boton de suscribete*/
-.boton1{
-  height: 38px;
-  background: #FFD433;
-  border:0px
-  padding-left: 20px;
-  font-weight: bold;
-  color: #fff;
-  -webkid- border-radius: 5px;
 
-}
-
-
-
-/* Tamaño de fuente del botón de suscribete*/
-.boton1{
-  font-size: 1rem;
-}
 
 
 /* Encabezado*/
@@ -229,12 +212,24 @@ body .resaltado, body{
 
 
 
-.twitter{
-  float: right;
-    width: 30%;
-    margin-top: -3%;
+/* Boton de suscribete*/
+.boton1{
+  height: 38px;
+  background: #FFD433;
+  border:0px
+  padding-left: 20px;
+  font-weight: bold;
+  color: #fff;
+  -webkid- border-radius: 5px;
+
 }
 
+
+
+/* Tamaño de fuente del botón de suscribete*/
+.boton1{
+  font-size: 1rem;
+}
 
 
 footer{
